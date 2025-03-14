@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EtudiantDAO {
-    private static final String URL = "jdbc:mysql://mysql-myderbaliplan.alwaysdata.net:3306/myderbaliplan_db";
-    private static final String USER = "404056_teacher";  // Remplacez par votre utilisateur MySQL
-    private static final String PASSWORD = "Cgodin2025";  // Remplacez par votre mot de passe
+    private static final String URL = "jdbc:mysql://localhost:3306/db";
+    private static final String USER = "";  // Remplacez par votre utilisateur MySQL
+    private static final String PASSWORD = "";  // Remplacez par votre mot de passe
 
     // Ajouter un étudiant
     public void ajouterEtudiant(Etudiant etudiant) {
